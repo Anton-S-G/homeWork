@@ -18,4 +18,6 @@ public interface TreeNode<T> extends Serializable {
     List<T> getChildren();
     T getSpouse();
     void setSpouse(T human);
+
+    <T> Comparable<T> getGender();
 }

@@ -1,5 +1,7 @@
 package human;
 
+import familyTree.TreeNode;
+
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.Period;
@@ -7,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class Human<T extends Human> implements Serializable {
+public class Human<T extends TreeNode<T>> implements Serializable {
     private long id;
     private final String name;
     private final Gender gender;
