@@ -8,7 +8,7 @@ import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        String filePath = "familyTree/tree.txt";
+        String filePath = "tree.txt";
 //        FamilyTree tree = new FamilyTree();
 //        FamilyTree tree = firstTree();
         FamilyTree tree = load(filePath);
